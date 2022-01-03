@@ -36,10 +36,10 @@
           <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Hosting</a></li>
-          <li class="nav__item"><a href="#">VPS</a></li>
-          <li class="nav__item"><a href="#">Domain</a></li>
-          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#hosting">Hosting</a></li>
+          <li class="nav__item"><a href="#hosting">VPS</a></li>
+          <li class="nav__item"><a href="#domains">Domain</a></li>
+          <li class="nav__item"><a href="#pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
@@ -65,7 +65,11 @@
         /></picture>
       </div>
     </section>
-    <section class="block container block-domain" data-aos="zoom-in-up">
+    <section
+      id="domains"
+      class="block container block-domain"
+      data-aos="zoom-in-up"
+    >
       <header class="block__header">
         <h2>Starting at $9 per month.</h2>
         <p>
@@ -94,7 +98,7 @@
         <li>.xyz $10</li>
       </ul>
     </section>
-    <section class="block container block-plan" data-aos="fade-up">
+    <section id="pricing" class="block container block-plan" data-aos="fade-up">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -158,7 +162,7 @@
         </div>
       </div>
     </section>
-    <section class="block container">
+    <section id="hosting" class="block container">
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
         <p>
@@ -197,10 +201,10 @@
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use href="images/sprite.svg#easy"></use>
+              <use href="images/sprite.svg#computer"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Super Easy to Ues</h3>
+          <h3 class="feature__heading">Simply Fast Websites</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui
             odio numquam architecto placeat debitis molestias culpa nostrum iste
@@ -211,23 +215,23 @@
         <picture>
           <source
             type="image/webp"
-            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+            srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+            srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use href="images/sprite.svg#easy"></use>
+              <use href="images/sprite.svg#wordpress"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Super Easy to Ues</h3>
+          <h3 class="feature__heading">Wordpress Made Easy</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui
             odio numquam architecto placeat debitis molestias culpa nostrum iste
@@ -238,23 +242,23 @@
         <picture>
           <source
             type="image/webp"
-            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+            srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
             <svg class="icon icon--primary">
-              <use href="images/sprite.svg#easy"></use>
+              <use href="images/sprite.svg#clock"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Super Easy to Ues</h3>
+          <h3 class="feature__heading">24/7 Expert Support</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui
             odio numquam architecto placeat debitis molestias culpa nostrum iste
@@ -265,13 +269,13 @@
         <picture data-aos="zoom-in-up">
           <source
             type="image/webp"
-            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+            srcset="images/support.webp 1x, images/support@2x.webp 2x"
           />
           <source
             type="image/jpg"
-            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+            srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
           />
-          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+          <img class="feature__image" src="images/support@2x.jpg" alt="" />
         </picture>
       </article>
     </section>
@@ -312,7 +316,7 @@
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use href="images/sprite.svg#snap"></use>
+                  <use href="images/sprite.svg#growth"></use>
                 </svg>
               </div>
               <div class="media__body">
@@ -329,7 +333,7 @@
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use href="images/sprite.svg#snap"></use>
+                  <use href="images/sprite.svg#wordpress"></use>
                 </svg>
               </div>
               <div class="media__body">
@@ -391,6 +395,21 @@
         </div>
       </div>
     </section>
+    <div class="container">
+      <div class="callout callout--primary callout--signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Read To Get Started?</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reiciendis excepturi expedita quis numquam eaque veritatis, natus
+              assumenda, itaque.
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+        </div>
+      </div>
+    </div>
     <footer class="block block--dark footer">
       <div class="container grid footer__container">
         <section class="collapsible collapsible--expanded footer__section">
@@ -410,28 +429,47 @@
         </section>
         <section class="collapsible footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Item 2</h2>
+            <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            perferendis repellendus porro ea atque impedit aliquam inventore
-            quis blanditiis illo.
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
           <div class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Item 3</h2>
+            <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use href="images/sprite.svg#chevron"></use>
             </svg>
           </div>
           <div class="collapsible__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            perferendis repellendus porro ea atque impedit aliquam inventore
-            quis blanditiis illo.
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge Base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use href="images/sprite.svg#chevron"></use>
+            </svg>
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Domain Checker</a></li>
+              <li><a href="#">Domain Transfer</a></li>
+              <li><a href="#">Free Domain</a></li>
+            </ul>
           </div>
         </section>
         <div class="footer__brand">

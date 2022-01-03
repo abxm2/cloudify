@@ -26,6 +26,10 @@ html {
   font-size: 62.5%;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   font-family: inter, Arial, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
@@ -498,7 +502,7 @@ a {
   display: grid;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -531,11 +535,11 @@ a {
 @media screen and (min-width: 768px) {
   .testimonial .quote,
   .testimonial .quote__author {
-    font-size: 2.4rem;
+    font-size: 120%;
   }
 
   .testimonial .quote {
-    margin-left: 6rem;
+    margin: 5rem 0 0 6rem;
   }
 }
 
@@ -662,7 +666,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .nav__list {
@@ -840,6 +844,7 @@ a {
 
 .footer {
   background-color: #232323;
+  padding-top: 10rem;
 }
 
 .footer a {
@@ -883,6 +888,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+
+  .footer {
+    font-size: 1.5rem;
+  }
+
   .footer__container {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
@@ -912,4 +922,10 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* callout signup */
+
+.callout--signup {
+  transform: translateY(5rem);
 }
